@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AboutPage from "./Pages/AboutPage";
+import Navigation from "./Components/Navigation";
+import AboutPage from "./Pages/ContactPage";
 import HomePage from "./Pages/HomePage";
 import
 {
@@ -15,10 +16,7 @@ function App()
 {
   return (
     <Router>
-      <div>
-        <Link to="/">Jon St. Denis</Link>
-        <Link to="/about">About</Link>
-      </div>
+      <Navigation />
       <Switch>
         <Route path="/about">
           <AboutPage />
