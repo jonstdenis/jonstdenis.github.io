@@ -1,0 +1,112 @@
+@font-face 
+{
+    font-family: 'Lora-Regular';
+    src: url('./Lora-Regular.ttf');
+}
+
+@font-face 
+{
+    font-family: 'OpenSansCondensed-Bold';
+    src: url('./OpenSansCondensed-Bold.ttf');
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font-family: 'OpenSansCondensed-Bold', sans-serif;
+    font-size: 3em;
+    margin-top: 0em;
+}
+
+h2
+{
+    font-family: 'OpenSansCondensed-Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 0em;
+}
+
+p
+{
+    font-family: 'Lora-Regular', serif;
+}
+
+a
+{
+    font-family: 'Lora-Regular', serif;
+    text-decoration: none; 
+    color: black;
+}
+
+.header
+{
+    background-color: #456875;
+    height: 16em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title
+{
+    color: white;
+    font-size: 5em;
+}
+
+.profile-image
+{
+    width: 100%
+}
+
+.container
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.grid-text-image
+{
+    
+}
+
+.item
+{
+    padding: 1em;
+}
+
+
+
+@media only screen and (min-width: 768px)
+{
+    .container
+    {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .grid-text-image
+    {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+}
+
+@media only screen and (min-width: 1000px)
+{
+    .grid-text-image
+    {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+}
+
+.contact
+{
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+}
